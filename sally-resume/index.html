@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="main.css">
     <meta name="description" content="Sally's Resume">
@@ -7,45 +7,39 @@
   </head>
 
   <body>
+        
+    <nav role="navigation">
+      <ul>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#history">Work History</a></li>
+	<li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
     
-    <header>
-      <nav>
-	<p>
-	  <a href="#contact">Contact</a> |
-	  <a href="#history">Work History</a> |
-	  <a href="#education">Education</a>
-	</p>
-      </nav>
+    <header role="banner">
+      <h1>Sally Student</h1>
     </header>
-    
-    <main>
-      <div>
-	<section>
-	  <h1>Sally Student</h1>
-	  <h2>
-	    <em>A committed professional</em>
-	  </h2>
 
-	  <br>
-	  <br>
+    <br>
+    <br>
 
-	  <img src="https://tinyurl.com/y7el6d2s"
-	       alt="Picture of Ilana Glazer posing as Sally Student">
+    <main role="main">
 
-	</section>
+      <div class="picture">
+	<img src="https://tinyurl.com/y7el6d2s"
+	     alt="Picture of Ilana Glazer posing as Sally Student">
       </div>
 
       <br>
       <br>
       
       <div>
-	<h1 id="history">Work History</h1>
-
-	<section>
+	<section role="region">
+	  <h2 id="history">Work History</h2>
 	  <p>
-	    <strong>Reed Richards Brain Transplants</strong><br>
+	    Reed Richards Brain Transplants<br>
 	    Intern<br>
-	    <em>2001-2004</em>
+	    2001-2004
 	    <br>
 	    <br>
 	    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -55,14 +49,12 @@
 	    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 	    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	  </p>
-	</section>
-
-	<br>
-	<br>
-	
-	<section>
+	  
+	  <br>
+	  <br>
+	  
 	  <p>
-	    <strong>Reed Richards Brain Transplants</strong><br>
+	    Reed Richards Brain Transplants<br>
 	    Lead Transplanter<br>
 	    <em>2004-2008</em>
 	    <br>
@@ -74,18 +66,14 @@
 	    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 	    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	  </p>
-	</section>
-
-	<br>
-	<br>
-	
-	<section>
+	  
+	  <br>
+	  <br>
+	  
 	  <p>
-	    <strong>St. Michaels Hospital</strong><br>
+	    St. Michaels Hospital<br>
 	    Head of Neuroscience<br>
-	    <em>2008-current</em>
-	    <br>
-	    <br>
+	    2008-current<br><br>
 	    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 	    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 	    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -100,26 +88,22 @@
       <br>
       
       <div>
-	<h1 id="education">Education</h1>
-
-	<section>
+	<section role="region">
+	  <h2 id="education">Education</h2>
+	  
 	  <p>
 	    <a href="https://www.ursinus.edu/">Ursinus College</a><br>
-	    B.S., summa cum laude, Neuroscience, <em>2001-2004</em><br>
+	    B.S., summa cum laude, Neuroscience, 2001-2004<br>
 	  </p>
-	</section>
-
-	<section>
+	  
 	  <p>
 	    <a href="http://www.tufts.edu/">Tufts University</a><br>
-	    M.A., Neuroscience, <em>2004-2008</em><br>
+	    M.A., Neuroscience, 2004-2008<br>
 	  </p>
-	</section>
-	
-	<section>
+	  
 	  <p>
 	    <a href="http://www.tufts.edu/">Tufts University</a><br>
-	    Phd, Neuroscience, <em>2008-2012</em><br>
+	    Phd, Neuroscience, 2008-2012<br>
 	  </p>
 	</section>	
       </div>
@@ -127,7 +111,7 @@
       <br>
 
       <div>
-	<section>
+	<section role="region">
 	  <address>
 	    <h2 id="contact">Contact Information</h2>
 	    <p>Email:
@@ -139,7 +123,7 @@
 	</section>
       </div>
 
-      <footer>
+      <footer role="contentinfo">
 	&copy; 2018 Sally Student, All Rights Reseved
       </footer>
       
